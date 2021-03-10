@@ -15,7 +15,7 @@
 //     hamburger.hide();
 // });
 
-
+var hamburger = $(".hamburger-menu");
 
 // secondo metodo
 $(".header-right a").click(function() {
