@@ -17,11 +17,20 @@
 
 var hamburger = $(".hamburger-menu");
 
-// secondo metodo
+// // secondo metodo
+// $(".header-right a").click(function() {
+//   hamburger.fadeIn();
+// });
+//
+// $(".hamburger-menu a").click(function() {
+//   hamburger.fadeOut();
+// });
+
+// terzo metodo
 $(".header-right a").click(function() {
-  hamburger.fadeIn();
+  hamburger.addClass("active");
 });
 
 $(".hamburger-menu a").click(function() {
-  hamburger.fadeOut();
+  hamburger.removeClass("active");
 });
