@@ -27,10 +27,10 @@ var hamburger = $(".hamburger-menu");
 // });
 
 // terzo metodo
-$(".header-right a").click(function() {
+$(".header-right > a > i").click(function() {
   hamburger.addClass("active");
 });
 
-$(".hamburger-menu a").click(function() {
+$(".hamburger-menu > a").click(function() {
   hamburger.removeClass("active");
 });
